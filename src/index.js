@@ -3,12 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
-import NumberList from './components/Listandkeys';
+import FlavorForm from './components/Forms';
 
 
 
-const numbers = [1, 2, 3, 4, 5];
-ReactDOM.render(<NumberList numbers={numbers} />, document.getElementById('root'));
+ReactDOM.render(<FlavorForm />, document.getElementById('root'));
 
 
 
